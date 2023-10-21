@@ -1,7 +1,7 @@
 node {
     def app
     
-    env.IMAGE = 'ooghenekaro/amazon'
+    env.IMAGE = 'ktitilayo2/amazon'
 
     stage('Clone repository') {
              git branch: 'main', url: 'https://github.com/ktitilayo2/argocd-amazon-manifest.git'  
